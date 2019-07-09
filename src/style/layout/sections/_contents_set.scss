@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+#contents_set {
+    padding: 65px 0 0 0;
+
+    h3 {
+        margin-bottom: 40px;
+    }
+
+    .contents_set-block {
+        color: #2b2b2b; /* #323232 */
+
+        .cfs {
+            @extend %bg-cover;
+            height: 367px;
+            margin: 14px 0;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .visual, .desc {
+                float: left;
+                width: 50%;
+            }
+
+            .visual {
+                text-align: right;
+
+                img {
+                    /*height: 367px;*/
+                    max-height: 367px;
+                    /*margin-right: 145px;*/
+                    /*width: 420px;*/
+                    width: auto;
+                }
+            }
+
+            .desc {
+
+                h4 {
+                    margin-top: 131px;
+                    text-align: left;
+                }
+
+                p {
+                    margin: 11px 0 0 0;
+                }
+            }
+
+            &-right {
+
+                .visual {
+                    text-align: left;
+                }
+
+                .desc {
+
+                    h4, p {
+                        text-align: right;
+                    }
+                }
+            }
+
+
+            /* BGs contents set */
+            &-training_diary {
+                background-image: url(../img/contents_set/training_diary/bg.png);
+            }
+
+            &-feeding_program {
+                background-image: url(../img/contents_set/feeding_program/bg.png);
+            }
+
+            &-personal_companion {
+                background-image: url(../img/contents_set/personal_companion/bg.png);
+            }
+
+            &-coach_online {
+                background-image: url(../img/contents_set/coach_online/bg.png);
+            }
+
+            &-sports_nutrition {
+                background-image: url(../img/contents_set/sports_nutrition/bg.png);
+            }
+        }
+    }
+}

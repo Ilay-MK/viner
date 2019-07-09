@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+%container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1502px; /*1482px*/
+    /*min-width: 1502px;*/
+    padding: 0; /*0 10px*/
+    /*width: 1482px;*/
+    width: 100%;
+}
+
+%row {
+    margin: 0 10px; /*0; $padding*/;
+}
+
+// --------------------------------------- //
+
+%content {
+    content: " ";
+    display: table;
+}
+
+%clear {
+    clear: both;
+}
+
+%bg-cover {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+// --------------------------------------- //
+
+%font-base {
+    font-family: 'mCalibri-Light', 'Calibri-Light', 'Calibril', 'calibril', sans-serif;
+    font-variant: normal;
+    line-height: normal;
+}
+
+%font-base-r {
+    font-family: 'mCalibri-Regular', 'Calibri-Regular', 'Calibri', 'calibri', sans-serif;
+    font-variant: normal;
+    line-height: normal;
+}
+
+%font-heading {
+    font-family: 'mBebasNeueBold', 'BebasNeueBold', sans-serif;
+    font-variant: normal;
+    line-height: normal;
+}
+
+%font-heading-r {
+    font-family: 'mBebasNeueRegular', 'BebasNeueRegular', sans-serif;
+    font-variant: normal;
+    line-height: normal;
+}

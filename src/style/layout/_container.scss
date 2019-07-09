@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.container {
+    @extend %container;
+    &:before, &:after {
+        @extend %content;
+    }
+    &:after {
+        @extend %clear;
+    }
+}

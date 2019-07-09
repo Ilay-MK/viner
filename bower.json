@@ -1,0 +1,23 @@
+{
+  "name": "viner.by",
+  "description": "Landing. Корекция фигуры в Беларуси",
+  "main": "index.html",
+  "authors": [
+    "Ilya Purouski"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "animate.css": "~3.4.0",
+    "jquery": "~2.1.4"
+  }
+}
